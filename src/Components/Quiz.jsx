@@ -1,8 +1,5 @@
 import React, { useState, useEffect } from 'react';
 
-// Assume you have a logo image file in your project
-import logo from '/askware_logo_bleu.svg';
-
 const PRIMARY_COLOR = '#00538B';
 const QUIZ_DURATION_MINUTES = 15;
 
@@ -187,13 +184,7 @@ const Quiz = () => {
   if (!quizData) return <div>Loading quiz data...</div>;
 
   return (
-    <div>
-      <nav style={{ backgroundColor: PRIMARY_COLOR }} className="p-5">
-        <div className="container mx-auto flex items-center justify-between">
-          <img src={logo} alt="Company Logo" className="h-12" />
-          <h1 className="text-white text-xl font-bold">C# Assessment Quiz</h1>
-        </div>
-      </nav>
+    
       <div className="max-w-3xl mx-auto mt-10 p-6 bg-white rounded-lg shadow-xl">
         {showScore ? (
           renderQuizResults()
@@ -236,7 +227,7 @@ const Quiz = () => {
           </>
         )}
       </div>
-    </div>
+    
   );
 };
 
