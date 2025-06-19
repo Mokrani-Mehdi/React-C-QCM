@@ -46,14 +46,14 @@
     },
     {
       "level": "Junior",
-      "question": "Which algorithm is typically used to find an item in a sorted array?",
+      "question": "How to create a new Person object?",
       "answers": {
-        "a": "Bubble Sort",
-        "b": "Binary Search",
-        "c": "Linear Search",
-        "d": "Quick Sort"
+        "a": "Person p = new Person;",
+        "b": "Person p = Person.Create();",
+        "c": "Person p = new Person();",
+        "d": "new Person p = Person();"
       },
-      "correctAnswer": "b"
+      "correctAnswer": "c"
     },
     {
       "level": "Junior",
@@ -68,7 +68,7 @@
     },
     {
       "level": "Junior",
-      "question": "Which are valid ways to handle null references? (Select all)",
+      "question": "Which are valid ways to handle null references?",
       "answers": {
         "a": "Using try-catch blocks",
         "b": "Null coalescing operator (??)",
@@ -99,16 +99,16 @@
       },
       "correctAnswer": "c"
     },
-    {
+   {
       "level": "Junior",
-      "question": "What does LINQ stand for?",
+      "question": "What is the difference between '==' and 'Equals()' in C#?",
       "answers": {
-        "a": "Linked Integrated Queries",
-        "b": "Language Integrated Query",
-        "c": "Local Interface Query",
-        "d": "Linear Query Network"
+        "a": "They are exactly the same",
+        "b": "'==' compares references, 'Equals()' compares values",
+        "c": "'==' can be overloaded, 'Equals()' cannot",
+        "d": "Both can be overridden but behave differently by default"
       },
-      "correctAnswer": "b"
+      "correctAnswer": "d"
     },
     {
       "level": "Junior",
@@ -134,7 +134,7 @@
     },
     {
       "level": "Junior",
-      "question": "Which are value types in C#? (Select all)",
+      "question": "Which are value types in C#?",
       "answers": {
         "a": "int",
         "b": "string",
@@ -156,12 +156,12 @@
     },
     {
       "level": "Junior",
-      "question": "Which sorting algorithm has O(n²) worst-case complexity?",
+      "question": "Which is a best practice for exception handling in C#?",
       "answers": {
-        "a": "Merge Sort",
-        "b": "Quick Sort",
-        "c": "Bubble Sort",
-        "d": "Heap Sort"
+        "a": "Catch all exceptions with catch(Exception ex)",
+        "b": "Use exceptions for control flow",
+        "c": "Catch specific exceptions and handle them appropriately",
+        "d": "Never use try-catch blocks"
       },
       "correctAnswer": "c"
     },
