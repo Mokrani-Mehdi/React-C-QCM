@@ -2,333 +2,223 @@
   "questions": [
     {
       "level": "Junior",
-      "question": "What is the correct way to declare a variable in C#?",
+      "question": "Which loop guarantees at least one execution of its body?",
       "answers": {
-        "a": "var myVariable = 10;",
-        "b": "int myVariable = 10;",
-        "c": "variable myVariable = 10;",
-        "d": "declare myVariable = 10;"
-      },
-      "correctAnswer": ["a", "b"]
-    },
-    {
-      "level": "Junior",
-      "question": "Which keyword is used to define a class in C#?",
-      "answers": {
-        "a": "struct",
-        "b": "interface",
-        "c": "class",
-        "d": "object"
+        "a": "for loop",
+        "b": "while loop",
+        "c": "do-while loop",
+        "d": "foreach loop"
       },
       "correctAnswer": "c"
     },
     {
       "level": "Junior",
-      "question": "What is the purpose of the 'using' statement in C#?",
-      "answers": {
-        "a": "To import namespaces",
-        "b": "To create a new object",
-        "c": "To define a new class",
-        "d": "To start a new thread"
-      },
-      "correctAnswer": "a"
-    },
-    {
-      "level": "Junior",
-      "question": "Which symbol is used to inherit a class in C#?",
-      "answers": {
-        "a": "->",
-        "b": "=>",
-        "c": ":",
-        "d": "extends"
-      },
-      "correctAnswer": "c"
-    },
-    {
-      "level": "Junior",
-      "question": "What is the default access modifier for class members in C#?",
+      "question": "What's the default access modifier for class members in C#?",
       "answers": {
         "a": "public",
         "b": "private",
-        "c": "protected",
-        "d": "internal"
+        "c": "internal",
+        "d": "protected"
       },
       "correctAnswer": "b"
     },
     {
       "level": "Junior",
-      "question": "Which of the following is a reference type in C#?",
+      "question": "Which collection type provides O(1) key-based lookup?",
       "answers": {
-        "a": "int",
-        "b": "float",
-        "c": "bool",
-        "d": "string"
+        "a": "List<T>",
+        "b": "Dictionary<TKey, TValue>",
+        "c": "LinkedList<T>",
+        "d": "HashSet<T>"
       },
-      "correctAnswer": "d"
+      "correctAnswer": "b"
     },
     {
       "level": "Junior",
-      "question": "What is the correct way to create an instance of a class in C#?",
+      "question": "What does the 'finally' block do in exception handling?",
       "answers": {
-        "a": "MyClass myObject = new MyClass();",
-        "b": "new MyClass() = myObject;",
-        "c": "MyClass myObject = create MyClass();",
-        "d": "instance MyClass myObject;"
+        "a": "Handles specific exceptions",
+        "b": "Executes only when no exception occurs",
+        "c": "Always executes after try/catch blocks",
+        "d": "Defines custom exception types"
       },
-      "correctAnswer": "a"
+      "correctAnswer": "c"
     },
     {
       "level": "Junior",
-      "question": "Which keyword is used to define a constant in C#?",
+      "question": "Which algorithm is typically used to find an item in a sorted array?",
+      "answers": {
+        "a": "Bubble Sort",
+        "b": "Binary Search",
+        "c": "Linear Search",
+        "d": "Quick Sort"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "level": "Junior",
+      "question": "What's the purpose of the StringBuilder class?",
+      "answers": {
+        "a": "To create immutable strings",
+        "b": "To optimize string concatenation",
+        "c": "To parse string values",
+        "d": "To compare strings efficiently"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "level": "Junior",
+      "question": "Which are valid ways to handle null references? (Select all)",
+      "answers": {
+        "a": "Using try-catch blocks",
+        "b": "Null coalescing operator (??)",
+        "c": "Optional parameters",
+        "d": "Null conditional operator (?.)"
+      },
+      "correctAnswer": ["b", "d"]
+    },
+    {
+      "level": "Junior",
+      "question": "What is Big O notation primarily used for?",
+      "answers": {
+        "a": "Measuring code execution time in seconds",
+        "b": "Describing algorithm complexity",
+        "c": "Counting lines of code",
+        "d": "Defining class hierarchies"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "level": "Junior",
+      "question": "Which keyword prevents class inheritance?",
       "answers": {
         "a": "static",
-        "b": "final",
-        "c": "const",
-        "d": "readonly"
-      },
-      "correctAnswer": "c"
-    },
-    {
-      "level": "Junior",
-      "question": "What is the purpose of the 'virtual' keyword in C#?",
-      "answers": {
-        "a": "To create an abstract method",
-        "b": "To allow a method to be overridden in derived classes",
-        "c": "To make a method static",
-        "d": "To create a final method that cannot be inherited"
-      },
-      "correctAnswer": "b"
-    },
-    {
-      "level": "Junior",
-      "question": "Which statement is used to handle exceptions in C#?",
-      "answers": {
-        "a": "try-catch",
-        "b": "if-else",
-        "c": "switch-case",
-        "d": "for-each"
-      },
-      "correctAnswer": "a"
-    },
-    {
-      "level": "Junior",
-      "question": "What is the purpose of the 'break' statement in C#?",
-      "answers": {
-        "a": "To exit a loop or switch statement",
-        "b": "To skip the current iteration of a loop",
-        "c": "To throw an exception",
-        "d": "To end the program execution"
-      },
-      "correctAnswer": "a"
-    },
-    {
-      "level": "Junior",
-      "question": "Which method is used to read a line of text from the console in C#?",
-      "answers": {
-        "a": "Console.Write()",
-        "b": "Console.Read()",
-        "c": "Console.ReadLine()",
-        "d": "Console.In()"
-      },
-      "correctAnswer": ["b", "c"]
-    },
-    {
-      "level": "Junior",
-      "question": "What is the purpose of the 'static' keyword in C#?",
-      "answers": {
-        "a": "To make a variable constant",
-        "b": "To create an instance variable",
-        "c": "To create a class-level variable or method",
-        "d": "To make a variable thread-safe"
-      },
-      "correctAnswer": "c"
-    },
-    {
-      "level": "Junior",
-      "question": "Which of the following is NOT a valid access modifier in C#?",
-      "answers": {
-        "a": "public",
         "b": "private",
-        "c": "protected",
-        "d": "package"
-      },
-      "correctAnswer": "d"
-    },
-    {
-      "level": "Junior",
-      "question": "What is the purpose of the 'this' keyword in C#?",
-      "answers": {
-        "a": "To refer to the current instance of the class",
-        "b": "To create a new instance of a class",
-        "c": "To call a base class method",
-        "d": "To define a static method"
-      },
-      "correctAnswer": "a"
-    },
-    {
-      "level": "Junior",
-      "question": "Which of the following is used to define a read-only property in C#?",
-      "answers": {
-        "a": "public int MyProperty { get; }",
-        "b": "public int MyProperty { set; }",
-        "c": "public int MyProperty { get; private set; }",
-        "d": "public readonly int MyProperty;"
-      },
-      "correctAnswer": "a"
-    },
-    {
-      "level": "Junior",
-      "question": "What is the purpose of the 'null' keyword in C#?",
-      "answers": {
-        "a": "To represent an uninitialized variable",
-        "b": "To represent a variable with zero value",
-        "c": "To represent the absence of an object reference",
-        "d": "To represent an empty string"
+        "c": "sealed",
+        "d": "abstract"
       },
       "correctAnswer": "c"
     },
     {
       "level": "Junior",
-      "question": "Which of the following is used to prevent a class from being inherited?",
+      "question": "What does LINQ stand for?",
       "answers": {
-        "a": "abstract",
-        "b": "sealed",
-        "c": "static",
-        "d": "virtual"
+        "a": "Linked Integrated Queries",
+        "b": "Language Integrated Query",
+        "c": "Local Interface Query",
+        "d": "Linear Query Network"
       },
       "correctAnswer": "b"
     },
     {
       "level": "Junior",
-      "question": "What is the purpose of the 'override' keyword in C#?",
+      "question": "Which data structure follows LIFO (Last-In-First-Out)?",
       "answers": {
-        "a": "To hide a base class method",
-        "b": "To create a new method in the derived class",
-        "c": "To implement an interface method",
-        "d": "To provide a new implementation of a virtual method"
+        "a": "Queue",
+        "b": "Dictionary",
+        "c": "Stack",
+        "d": "Array"
       },
-      "correctAnswer": "d"
+      "correctAnswer": "c"
     },
     {
       "level": "Junior",
-      "question": "Which of the following is used to explicitly implement an interface method?",
+      "question": "What's the main purpose of interfaces?",
       "answers": {
-        "a": "public void IMyInterface.MyMethod()",
-        "b": "override void MyMethod()",
-        "c": "new void MyMethod()",
-        "d": "virtual void MyMethod()"
+        "a": "To provide method implementations",
+        "b": "To define common behavior contracts",
+        "c": "To reduce memory usage",
+        "d": "To enable multiple inheritance"
       },
-      "correctAnswer": "a"
+      "correctAnswer": "b"
     },
     {
-      "level": "Intermediate",
-      "question": "What is the difference between 'ref' and 'out' parameters in C#?",
+      "level": "Junior",
+      "question": "Which are value types in C#? (Select all)",
       "answers": {
-        "a": "'ref' requires the parameter to be initialized before passing, 'out' does not",
-        "b": "'out' requires the parameter to be initialized before passing, 'ref' does not",
-        "c": "'ref' can be used with value types only, 'out' with reference types only",
-        "d": "There is no difference between 'ref' and 'out'"
+        "a": "int",
+        "b": "string",
+        "c": "DateTime",
+        "d": "class objects"
       },
-      "correctAnswer": "a"
+      "correctAnswer": ["a", "c"]
     },
     {
-      "level": "Intermediate",
-      "question": "Which of the following is true about delegates in C#?",
+      "level": "Junior",
+      "question": "What does 'garbage collection' manage?",
       "answers": {
-        "a": "Delegates are value types",
-        "b": "Delegates can only point to static methods",
-        "c": "Delegates are type-safe function pointers",
-        "d": "Delegates cannot be used with anonymous methods"
+        "a": "Database connections",
+        "b": "Memory allocation for objects",
+        "c": "Thread synchronization",
+        "d": "Exception handling"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "level": "Junior",
+      "question": "Which sorting algorithm has O(n²) worst-case complexity?",
+      "answers": {
+        "a": "Merge Sort",
+        "b": "Quick Sort",
+        "c": "Bubble Sort",
+        "d": "Heap Sort"
       },
       "correctAnswer": "c"
     },
     {
-      "level": "Intermediate",
-      "question": "What is the purpose of the 'yield' keyword in C#?",
+      "level": "Junior",
+      "question": "What is encapsulation?",
       "answers": {
-        "a": "To define an iterator",
-        "b": "To pause the execution of a method",
-        "c": "To return multiple values from a method",
-        "d": "To implement lazy evaluation in collections"
-      },
-      "correctAnswer": ["a", "d"]
-    },
-    {
-      "level": "Intermediate",
-      "question": "Which of the following correctly describes the 'IDisposable' interface?",
-      "answers": {
-        "a": "It is used to implement custom exception handling",
-        "b": "It is used to manage unmanaged resources",
-        "c": "It is used to define immutable objects",
-        "d": "It is used to implement multithreading"
+        "a": "Converting value types to reference types",
+        "b": "Hiding implementation details",
+        "c": "Creating multiple method signatures",
+        "d": "Reusing existing code"
       },
       "correctAnswer": "b"
     },
     {
-      "level": "Intermediate",
-      "question": "What is the purpose of the 'as' operator in C#?",
+      "level": "Junior",
+      "question": "Which method initializes class instances?",
       "answers": {
-        "a": "To perform arithmetic operations",
-        "b": "To create an alias for a namespace",
-        "c": "To perform type conversion that returns null if conversion fails",
-        "d": "To check if an object is of a specific type"
+        "a": "Main()",
+        "b": "Constructor",
+        "c": "Destructor",
+        "d": "Static method"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "level": "Junior",
+      "question": "What should you avoid in recursive functions?",
+      "answers": {
+        "a": "Parameter passing",
+        "b": "Base case definition",
+        "c": "Uncontrolled stack growth",
+        "d": "Return statements"
       },
       "correctAnswer": "c"
     },
     {
-      "level": "Intermediate",
-      "question": "Which of the following is true about extension methods in C#?",
+      "level": "Junior",
+      "question": "Which is NOT a SOLID principle?",
       "answers": {
-        "a": "They can be used to add methods to sealed classes",
-        "b": "They can override existing methods of a class",
-        "c": "They must be defined in a non-static class",
-        "d": "They can access private members of the extended type"
+        "a": "Single Responsibility",
+        "b": "Open/Closed Principle",
+        "c": "Dependency Injection",
+        "d": "Interface Segregation"
       },
-      "correctAnswer": "a"
+      "correctAnswer": "c"
     },
     {
-      "level": "Intermediate",
-      "question": "What is the purpose of the 'nameof' operator in C#?",
+      "level": "Junior",
+      "question": "What does 'async/await' help prevent?",
       "answers": {
-        "a": "To get the name of a variable, type, or member as a string",
-        "b": "To create a new namespace",
-        "c": "To check if a name exists in the current scope",
-        "d": "To rename a variable or type"
-      },
-      "correctAnswer": "a"
-    },
-    {
-      "level": "Intermediate",
-      "question": "Which of the following is true about indexers in C#?",
-      "answers": {
-        "a": "Indexers can only use integer indices",
-        "b": "A class can have multiple indexers",
-        "c": "Indexers cannot have set accessors",
-        "d": "Indexers must be declared as static"
+        "a": "Memory leaks",
+        "b": "UI thread blocking",
+        "c": "Null references",
+        "d": "Inheritance issues"
       },
       "correctAnswer": "b"
-    },
-    {
-      "level": "Intermediate",
-      "question": "What is the purpose of the 'is' operator in C#?",
-      "answers": {
-        "a": "To perform type conversion",
-        "b": "To check if an object is of a specific type",
-        "c": "To create an instance of a type",
-        "d": "To implement interface inheritance"
-      },
-      "correctAnswer": "b"
-    },
-    {
-      "level": "Intermediate",
-      "question": "What is the difference between 'const' and 'readonly' keywords in C#?",
-      "answers": {
-        "a": "'const' can only be used with value types, 'readonly' can be used with both value and reference types",
-        "b": "'readonly' can be assigned a value in the constructor, 'const' cannot",
-        "c": "'const' is evaluated at compile-time, 'readonly' at runtime",
-        "d": "All of the above"
-      },
-      "correctAnswer": "d"
     }
   ]
 }
