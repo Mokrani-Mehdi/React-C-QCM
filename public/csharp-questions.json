@@ -2,221 +2,227 @@
   "questions": [
     {
       "level": "Junior",
-      "question": "Which loop guarantees at least one execution of its body?",
+      "question": "Which keyword is used to define a constant variable in C#?",
       "answers": {
-        "a": "for loop",
-        "b": "while loop",
-        "c": "do-while loop",
-        "d": "foreach loop"
-      },
-      "correctAnswer": "c"
-    },
-    {
-      "level": "Junior",
-      "question": "What's the default access modifier for class members in C#?",
-      "answers": {
-        "a": "public",
-        "b": "private",
-        "c": "internal",
-        "d": "protected"
+        "a": "let",
+        "b": "const",
+        "c": "readonly",
+        "d": "static"
       },
       "correctAnswer": "b"
     },
     {
       "level": "Junior",
-      "question": "Which collection type provides O(1) key-based lookup?",
+      "question": "What is the primary purpose of an abstract class?",
+      "answers": {
+        "a": "To be instantiated directly to create objects.",
+        "b": "To provide a base class from which other classes can be derived.",
+        "c": "To prevent a class from being inherited.",
+        "d": "To declare a class that has only static members."
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "level": "Junior",
+      "question": "Which collection in C# ensures that all its elements are unique?",
       "answers": {
         "a": "List<T>",
-        "b": "Dictionary<TKey, TValue>",
-        "c": "LinkedList<T>",
+        "b": "Queue<T>",
+        "c": "Dictionary<TKey, TValue>",
         "d": "HashSet<T>"
-      },
-      "correctAnswer": "b"
-    },
-    {
-      "level": "Junior",
-      "question": "What does the 'finally' block do in exception handling?",
-      "answers": {
-        "a": "Handles specific exceptions",
-        "b": "Executes only when no exception occurs",
-        "c": "Always executes after try/catch blocks",
-        "d": "Defines custom exception types"
-      },
-      "correctAnswer": "c"
-    },
-    {
-      "level": "Junior",
-      "question": "How to create a new Person object?",
-      "answers": {
-        "a": "Person p = new Person;",
-        "b": "Person p = Person.Create();",
-        "c": "Person p = new Person();",
-        "d": "new Person p = Person();"
-      },
-      "correctAnswer": "c"
-    },
-    {
-      "level": "Junior",
-      "question": "What's the purpose of the StringBuilder class?",
-      "answers": {
-        "a": "To create immutable strings",
-        "b": "To optimize string concatenation",
-        "c": "To parse string values",
-        "d": "To compare strings efficiently"
-      },
-      "correctAnswer": "b"
-    },
-    {
-      "level": "Junior",
-      "question": "Which are valid ways to handle null references?",
-      "answers": {
-        "a": "Using try-catch blocks",
-        "b": "Null coalescing operator (??)",
-        "c": "Optional parameters",
-        "d": "Null conditional operator (?.)"
-      },
-      "correctAnswer": ["b", "d"]
-    },
-    {
-      "level": "Junior",
-      "question": "What is Big O notation primarily used for?",
-      "answers": {
-        "a": "Measuring code execution time in seconds",
-        "b": "Describing algorithm complexity",
-        "c": "Counting lines of code",
-        "d": "Defining class hierarchies"
-      },
-      "correctAnswer": "b"
-    },
-    {
-      "level": "Junior",
-      "question": "Which keyword prevents class inheritance?",
-      "answers": {
-        "a": "static",
-        "b": "private",
-        "c": "sealed",
-        "d": "abstract"
-      },
-      "correctAnswer": "c"
-    },
-   {
-      "level": "Junior",
-      "question": "What is the difference between '==' and 'Equals()' in C#?",
-      "answers": {
-        "a": "They are exactly the same",
-        "b": "'==' compares references, 'Equals()' compares values",
-        "c": "'==' can be overloaded, 'Equals()' cannot",
-        "d": "Both can be overridden but behave differently by default"
       },
       "correctAnswer": "d"
     },
     {
       "level": "Junior",
-      "question": "Which data structure follows LIFO (Last-In-First-Out)?",
+      "question": "In C# exception handling, which block is executed only if an exception occurs?",
       "answers": {
-        "a": "Queue",
-        "b": "Dictionary",
-        "c": "Stack",
-        "d": "Array"
+        "a": "try",
+        "b": "finally",
+        "c": "catch",
+        "d": "throw"
       },
       "correctAnswer": "c"
     },
     {
       "level": "Junior",
-      "question": "What's the main purpose of interfaces?",
+      "question": "How do you correctly call a method named 'Calculate' on an instance 'calc' of a 'Calculator' class?",
       "answers": {
-        "a": "To provide method implementations",
-        "b": "To define common behavior contracts",
-        "c": "To reduce memory usage",
-        "d": "To enable multiple inheritance"
+        "a": "Calculator.Calculate();",
+        "b": "calc.Calculate();",
+        "c": "new Calculator.Calculate();",
+        "d": "Calculate(calc);"
       },
       "correctAnswer": "b"
     },
     {
       "level": "Junior",
-      "question": "Which are value types in C#?",
+      "question": "Why is string concatenation using the '+' operator in a loop often discouraged in C#?",
+      "answers": {
+        "a": "It can lead to syntax errors.",
+        "b": "It creates a new string object in memory for each concatenation.",
+        "c": "It is not thread-safe.",
+        "d": "It only works with string literals."
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "level": "Junior",
+      "question": "Which of the following are reference types in C#?",
       "answers": {
         "a": "int",
-        "b": "string",
-        "c": "DateTime",
-        "d": "class objects"
+        "b": "double",
+        "c": "string",
+        "d": "object"
       },
-      "correctAnswer": ["a", "c"]
+      "correctAnswer": [
+        "c",
+        "d"
+      ]
     },
     {
       "level": "Junior",
-      "question": "What does 'garbage collection' manage?",
+      "question": "If an algorithm's time complexity is O(n), how does the execution time change as the input size 'n' doubles?",
       "answers": {
-        "a": "Database connections",
-        "b": "Memory allocation for objects",
-        "c": "Thread synchronization",
-        "d": "Exception handling"
-      },
-      "correctAnswer": "b"
-    },
-    {
-      "level": "Junior",
-      "question": "Which is a best practice for exception handling in C#?",
-      "answers": {
-        "a": "Catch all exceptions with catch(Exception ex)",
-        "b": "Use exceptions for control flow",
-        "c": "Catch specific exceptions and handle them appropriately",
-        "d": "Never use try-catch blocks"
-      },
-      "correctAnswer": "c"
-    },
-    {
-      "level": "Junior",
-      "question": "What is encapsulation?",
-      "answers": {
-        "a": "Converting value types to reference types",
-        "b": "Hiding implementation details",
-        "c": "Creating multiple method signatures",
-        "d": "Reusing existing code"
+        "a": "It stays the same.",
+        "b": "It doubles.",
+        "c": "It quadruples.",
+        "d": "It is halved."
       },
       "correctAnswer": "b"
     },
     {
       "level": "Junior",
-      "question": "Which method initializes class instances?",
+      "question": "Which keyword allows a derived class to provide a specific implementation of a method that is already provided by its base class?",
       "answers": {
-        "a": "Main()",
-        "b": "Constructor",
-        "c": "Destructor",
-        "d": "Static method"
+        "a": "virtual",
+        "b": "override",
+        "c": "new",
+        "d": "base"
       },
       "correctAnswer": "b"
     },
     {
       "level": "Junior",
-      "question": "What should you avoid in recursive functions?",
+      "question": "What is the key difference between 'struct' and 'class' in C#?",
       "answers": {
-        "a": "Parameter passing",
-        "b": "Base case definition",
-        "c": "Uncontrolled stack growth",
-        "d": "Return statements"
+        "a": "Structs are reference types, and classes are value types.",
+        "b": "Structs do not support methods.",
+        "c": "Structs are value types, and classes are reference types.",
+        "d": "Structs cannot have constructors."
       },
       "correctAnswer": "c"
     },
     {
       "level": "Junior",
-      "question": "Which is NOT a SOLID principle?",
+      "question": "Which data structure follows the FIFO (First-In, First-Out) principle?",
       "answers": {
-        "a": "Single Responsibility",
-        "b": "Open/Closed Principle",
-        "c": "Dependency Injection",
-        "d": "Interface Segregation"
+        "a": "Stack",
+        "b": "Queue",
+        "c": "List",
+        "d": "Dictionary"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "level": "Junior",
+      "question": "Can a class implement multiple interfaces in C#?",
+      "answers": {
+        "a": "No, a class can only implement one interface.",
+        "b": "Yes, a class can implement multiple interfaces.",
+        "c": "Only if the interfaces have no methods in common.",
+        "d": "Only if the class is marked as 'sealed'."
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "level": "Junior",
+      "question": "Which of the following are considered value types in C#?",
+      "answers": {
+        "a": "string",
+        "b": "bool",
+        "c": "struct",
+        "d": "Array"
+      },
+      "correctAnswer": [
+        "b",
+        "c"
+      ]
+    },
+    {
+      "level": "Junior",
+      "question": "Which keyword is used in C# to define a method that does not return a value?",
+      "answers": {
+        "a": "null",
+        "b": "return",
+        "c": "void",
+        "d": "empty"
       },
       "correctAnswer": "c"
     },
     {
       "level": "Junior",
-      "question": "What does 'async/await' help prevent?",
+      "question": "When is it appropriate to use a 'switch' statement?",
       "answers": {
-        "a": "Memory leaks",
-        "b": "UI thread blocking",
-        "c": "Null references",
-        "d": "Inheritance issues"
+        "a": "To replace any 'if-else' statement.",
+        "b": "When checking a variable against a series of constant values.",
+        "c": "For complex boolean expressions.",
+        "d": "When you need to loop through a collection."
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "level": "Junior",
+      "question": "What is polymorphism in object-oriented programming?",
+      "answers": {
+        "a": "The ability of an object to take on many forms.",
+        "b": "The process of hiding the internal state of an object.",
+        "c": "The creation of a new class from an existing class.",
+        "d": "The bundling of data and methods that operate on the data into a single unit."
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "level": "Junior",
+      "question": "Which method is called when an object is created from a class?",
+      "answers": {
+        "a": "The Finalize method",
+        "b": "The Initialize method",
+        "c": "The Constructor",
+        "d": "The Dispose method"
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "level": "Junior",
+      "question": "What is a potential problem with an infinite loop?",
+      "answers": {
+        "a": "It will cause a compilation error.",
+        "b": "It will make the program consume excessive resources and become unresponsive.",
+        "c": "It automatically throws a TimeoutException.",
+        "d": "It corrupts the computer's memory."
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "level": "Junior",
+      "question": "Which SOLID principle suggests that a class should have only one reason to change?",
+      "answers": {
+        "a": "Open/Closed Principle",
+        "b": "Liskov Substitution Principle",
+        "c": "Single Responsibility Principle",
+        "d": "Dependency Inversion Principle"
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "level": "Junior",
+      "question": "What is the primary benefit of using LINQ (Language Integrated Query) in C#?",
+      "answers": {
+        "a": "To make the code compile faster.",
+        "b": "To provide a consistent way to query data from different sources.",
+        "c": "To automatically handle exceptions.",
+        "d": "To enforce strong typing on all variables."
       },
       "correctAnswer": "b"
     }
